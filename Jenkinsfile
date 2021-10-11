@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                pwsh(Script: 'Write-output "Hello World"')
+                pwsh(script: 'Write-output "Hello World"')
             }
         }
         stage ('Test') {
