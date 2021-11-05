@@ -17,4 +17,7 @@ jobs:
       run: make
     - name: ls
       run: ls
+    - name: runhello
+      run: ./hellow
+      
   
