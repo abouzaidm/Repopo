@@ -16,7 +16,7 @@ jobs:
     - name: make
       run: make
     - name: Branch
-      run: echo "${{ steps.branch-name.outputs.current_branch }}"
+      run: echo "${{ github.base_ref }}"
     - name: runhello
       run: ./hellow
       
