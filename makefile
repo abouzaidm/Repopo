@@ -8,7 +8,7 @@ default: all
 all: hellow
 
 hellow: hellow.c
-    $(CC) $(CFLAGS) -o hellow hellow.c
+	$(CC) $(CFLAGS) -o hellow hellow.c
 
 clean veryclean:
-    $(RM) hellow
+	$(RM) hellow
